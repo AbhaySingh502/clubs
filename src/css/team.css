@@ -1,0 +1,91 @@
+.team_card {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0/var(--tw-bg-opacity));
+    border-radius: .25rem;
+}
+
+.team_card_main {
+    border-radius: .25rem;
+    padding: 0.25rem;
+    grid-template-columns: 128px 1fr;
+    display: grid;
+}
+
+.team_card_img {
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    overflow: hidden;
+}
+
+.team_card_img span {
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    inset: 0px;
+}
+
+.team_card_img span img {
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: medium;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.team_card_text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    /* flex: ; */
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.team_card_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.team_card_up p {
+    background: -webkit-linear-gradient(45deg, #00fffb, #1614ff);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: .875rem;
+    line-height: 1.25rem;
+
+}
+
+.card_icons {
+    display: flex;
+}
+
+.team_card_text p {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: left;
+    font-weight: 700;
+    color: #fff;
+}

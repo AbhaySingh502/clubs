@@ -1,0 +1,12 @@
+.sport_cards {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}

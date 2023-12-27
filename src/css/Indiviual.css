@@ -1,0 +1,173 @@
+/* YourComponent.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+body {
+    height: 100vh;
+}
+
+.clubpages {
+    position: relative;
+}
+
+.clubpages::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("C:\Users\ABHAY SINGH\Videos\Captures\Institue Club\clubs\public\assetes\robotic.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    /* Adjust the opacity as needed */
+}
+
+.clubpages_main {
+
+    display: flex;
+}
+
+.clubpages_left {
+
+    width: 70%;
+}
+
+.clubpages_right {
+    width: 30%;
+}
+
+.round {
+    margin: 0;
+    border-top: 2px solid #0d6efd;
+    opacity: 0.6;
+}
+
+.vl {
+    /* height: 100vh; */
+    border-left: 2px solid #0d6efd;
+    opacity: 0.6;
+}
+
+.clubpages_up {
+    display: flex;
+    margin-top: 5px;
+}
+
+.clubpages_down {
+    margin-bottom: 5px;
+}
+
+.clubpages_down_heading h4 {
+    font-size: 2.3rem;
+}
+
+.clubpages_crousel {
+    margin: 0 2rem 2rem;
+}
+
+.clubpages_crousel h4 {
+    cursor: pointer;
+    text-align: left;
+    font-weight: 600;
+    color: purple;
+    margin-left: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.cdd_up_title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+.cdd_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cdd_down_para {
+    text-align: justify;
+    font-size: 1.4rem;
+    margin: 0 2.5rem;
+}
+
+
+.btn-box {
+    position: relative;
+    height: 50px;
+}
+
+.btn-box .btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 100%;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--bg-color);
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.btn-box .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: -1;
+    transition: 0.5s;
+
+}
+
+.btn-box .btn:hover {
+    color: var(--main-color);
+}
+
+.btn-box .btn:hover::before {
+    width: 100%;
+}
+
+.cdd_main {
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.cdd_left {
+    width: 75%;
+}
+
+.cdd_right {
+    margin-right: 2rem;
+    width: 25%;
+}
+
+.cdd_right img {
+    width: 100%;
+
+}
+
+/* Other styles for your component */

@@ -1,0 +1,80 @@
+.club {
+    /* cursor: pointer; */
+    background-color: #e5f1f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.club_up {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    width: 70%;
+    margin-top: 25px;
+}
+
+.club_about {
+    text-align: left;
+    /* margin-left: 10px; */
+    padding-left: 11px;
+    background-color: #704B7B;
+    opacity: 0.9;
+    color: white;
+    border: 5px solid white;
+}
+
+.club_about p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.club_about:hover {
+    transition: all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+
+}
+
+.club_name {
+    display: flex;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #655485;
+    border: 3px solid white;
+    left: 6px;
+    /* padding: ; */
+    padding-left: 10px;
+    color: white;
+}
+
+.club_m {
+    width: 20%;
+}
+
+.club_icons {
+    color: white;
+    width: 80%;
+    left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 4rem;
+}
+
+.club_icons a {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.clubs_icons a:hover {
+    color: #00aae7;
+}
+
+.club_lin {
+    box-shadow: 5px 5px 20px darkslateblue;
+    cursor: pointer;
+    display: flex;
+}
