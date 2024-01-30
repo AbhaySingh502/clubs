@@ -16,6 +16,7 @@ import Robotics from './clubspages/Robotics';
 import Sae from './clubspages/Sae';
 import Wellbeing from './clubspages/Wellbeing';
 import Sport_main from './sports/Sport_main';
+import Gallery from './components/Gallery'
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Clubs" element={<Clubs_card />} />
           <Route path="/Sports" element={<Sport_main />} />
+          <Route path="/Gallery" element={<Gallery />} />
         </Routes>
         <Routes>
           <Route path="/Abhivayakt" element={<Abhivayakt />} />

@@ -12,13 +12,13 @@ export default function Team({key, name, type, contact_no, email, insta_id, link
     
     return (
     <div> 
-       <motion.div class="card">
-        <div class="card-img">
-            <img src={source_url} style={{borderRadius:"10px"}} alt="profile"/>
+       <motion.div class="card ms-4 me-4 mb-4 d-inline-block w-75 h-150 rounded-3 bg-opacity-10 shadow-lg">
+        <div class="card-img d-inline-block rounded-10 mx-auto mt-3 w-220 h-230 bg-transparent">
+            <img className='img-fluid' src={source_url} style={{borderRadius:"10px"}} alt="profile"/>
         </div>
-        <div class="desc">
-            <h6 class="primary-text">{name}</h6>
-            <h6 class="secondary-text">{type}</h6>
+        <div class="desc w-100 text-center">
+            <h6 class="primary-text text-muted fw-light fs-6">{name}</h6>
+            <h6 class="secondary-text text-secondary fs-5 fw-bold text-uppercase lh-1 mb-3">{type}</h6>
         </div>
         <div className='member-links'>
         <motion.a

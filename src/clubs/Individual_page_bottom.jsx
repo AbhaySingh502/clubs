@@ -5,15 +5,15 @@ const Blue = {
   };
 function Individual_page_bottom({key,name,para,source_url}) {
   return (
-    <div className="cdd_main">
-              <div className="cdd_left">
+    <div className="cdd_main mb-0.2 d-flex">
+              <div className="cdd_left w-75">
                 <div className="cdd_up">
-                  <div className="cdd_up_title">
+                  <div className="cdd_up_title text-center font-weight500">
                     <span style={Blue}>{name}</span>
                   </div>
                 </div>
-              <div className="cdd_down">
-                  <div className="cdd_down_para">
+              <div className="cdd_down d-flex flex-column align-items-center">
+                  <div className="cdd_down_para text-justify">
                     {para}
                   </div>
                   {/* <div class="btn-box">
@@ -23,7 +23,7 @@ function Individual_page_bottom({key,name,para,source_url}) {
                 
               </div>
               </div>
-              <div className="cdd_right">
+              <div className="cdd_right w-25 mr-0.8">
                   <img src={source_url} alt="" />
               </div>
     </div>

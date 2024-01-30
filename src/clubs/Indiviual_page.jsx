@@ -28,9 +28,9 @@ function Indiviual_page() {
         <h1>ROBOTICS</h1>
       </div>
       <hr className="round" />
-      <div className="clubpages_main">
+      <div className="clubpages_main d-flex">
 
-      <div className='clubpages_left'>
+      <div className='clubpages_left w-70'>
         <div className="clubpages_up">
           <img src={robotic} alt="" />  
           <div className="clubpages_text">

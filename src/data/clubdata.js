@@ -1,36 +1,36 @@
 const clubdata = [
     {
         key: 1,
-        name: "Robotics",
-        para: "The Robotics Club of IIT JAMMU (Robosapiens) is an organization that brings together individuals with an interest in robotics and technology. The club aims at fostering learning, collaboration, and hands-on experience in the field of robotics. Members often engage in various activities, including building and programming robots, participating in competitions, and staying updated on advancements in robotics technology. The club provides a platform for students or enthusiasts to explore their passion for robotics, develop technical skills, and work on projects that integrate mechanical, electrical, and software components. Additionally, Robosapiens hosts events, workshops, and outreach activities to promote robotics education and awareness within the community.",
-        insta_id: "https://www.instagram.com/devinchugh",
-        youtube: "#",
-        linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
-        image: "/assetes/robotic.jpg",
-        club_link: '/Clubpage',
+        name: "KRITASH",
+        para: "Kritash is the social welfare club of IIT Jammu, which is dedicated to helping the needy and contributing to the betterment of society. This club was formed in 2017 by Abhishek Kumar Gupta with the aim of social welfare and the primary focus of teaching underprivileged children. Today, this club has expanded to organize donation drives, spread health and hygiene awareness, conduct cultural events to teach ethical values, and much more. Kritash is derived from the words “Krit” (which means creating) + “Asha” (which means hope), summing up the tagline of “Kritash” as “the one who creates hope.” We are here to make every possible effort to uplift the condition of the underprivileged, spread awareness, and inculcate in our members a sense of social responsibility. Kritash currently has two coordinators Ayush Raj and Riddhima Pandey.",
+        insta_id: "https://www.instagram.com/kritash_iitjammu/",
+        youtube: "https://www.youtube.com/@kritash-iitjammu1587",
+        linkedin: " https://www.linkedin.com/company/kritash/mycompany/",
+        image: "/assetes/kri.png",
+        club_link: '/Kritash',
         high: "20rem"
 
     },
     {
         key: 2,
-        name: "KRITASH",
-        para: "They use color theory. Color theory is a practical combination of art and science that’s used to determine what colors look good together. The color wheel was invented in 1666 by Isaac Newton, who mapped the color spectrum onto a circle. The color wheel is the basis of color theory, because it shows the relationship between colors.Colors that look good together are called a color harmony. Artists and designers use these to create a particular look or feel. You can use a color wheel to find color harmonies by using the rules of color combinations. Color combinations determine the relative positions of different colors in order to find colors that create a pleasing effect.  ",
-        insta_id: "https://www.instagram.com/devinchugh",
+        name: "ABHIVYAKT",
+        para: "The Literary Club of IIT Jammu, also known as Abhivaykt, aims to promote the passion for literature and the desire to enhance the imagination of all. Our main focus is to provide a platform where everyone can express their views and opinions with like-minded individuals. Club meetings, on one hand, often include debates, improv, and such to help one improve speaking skills and regular sessions like creative writing, poetry writing and recitation to help express their thoughts on paper and verbally.  We wish for each and every person to express their uniqueness, and to feel at ease while doing so.",
+        insta_id: "https://www.instagram.com/abhivyakt.iitjmu?igsh=aXVwZ2w4NnZoeXRu",
         youtube: "#",
-        linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
+        linkedin: "#",
         image: "/assetes/kri.png",
         club_link: "/Kritash",
         high: "18.1rem"
     },
     {
         key: 3,
-        name: "ARTHITICS",
-        para: "They use color theory. Color theory is a practical combination of art and science that’s used to determine what colors look good together. The color wheel was invented in 1666 by Isaac Newton, who mapped the color spectrum onto a circle. The color wheel is the basis of color theory, because it shows the relationship between colors.Colors that look good together are called a color harmony. Artists and designers use these to create a particular look or feel. You can use a color wheel to find color harmonies by using the rules of color combinations. Color combinations determine the relative positions of different colors in order to find colors that create a pleasing effect.  ",
+        name: "ASTRIA-ZA",
+        para: "Astria-za, the Physics and Astronomy Club at IIT Jammu, is a burgeoning community of passionate students dedicated to exploring the vast realms of physics and astronomy. In its initial stages, the club has already shown remarkable growth and enthusiasm among its members. Astria-za serves as a platform for students to delve into the fascinating mysteries of the universe, fostering a keen interest in both theoretical and observational aspects of physics and astronomy. The club organizes regular meetings, workshops, and stargazing events, providing students with opportunities to engage in hands-on experiences and discussions with like-minded peers. As Astria-za continues to expand, it aims to inspire a new generation of scientists and stargazers, contributing to the academic and intellectual vibrancy of IIT Jammu.",
         insta_id: "https://www.instagram.com/devinchugh",
         youtube: "#",
-        linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
+        linkedin: " https://www.linkedin.com/company/astria-za/",
         image: "/assetes/artihtic.png",
-        club_link: "/Arthitics",
+        club_link: "/Ar",
         high: "18.1rem"
     },
     {

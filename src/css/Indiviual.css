@@ -1,4 +1,6 @@
-/* YourComponent.css */
+/* YourComponent.css Done */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -20,12 +22,10 @@ body {
 }
 
 .clubpages::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+
+
+
     background-image: url("C:\Users\ABHAY SINGH\Videos\Captures\Institue Club\clubs\public\assetes\logo.png");
     background-size: cover;
     background-position: center;

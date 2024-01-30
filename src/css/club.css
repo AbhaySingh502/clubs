@@ -1,3 +1,6 @@
+/* DONE */
+
+
 .club {
     /* cursor: pointer; */
     background-color: #e5f1f8;
@@ -77,4 +80,90 @@
     box-shadow: 5px 5px 20px darkslateblue;
     cursor: pointer;
     display: flex;
+}
+
+@media (max-width: 1200px) {
+
+    /* Styles specific to smaller screens */
+    .club_lin {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+
+    /* Styles specific to smaller screens */
+    .club_lin {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 15px;
+    }
+}
+
+@media (max-width: 410px) {
+
+    /* Styles specific to smaller screens */
+    .club_lin {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 21px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    /* Styles specific to smaller screens */
+    .club_lin {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 32px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    /* Styles specific to smaller screens */
+    .club_lin {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 42px;
+    }
+}
+
+@media (max-width: 356px) {
+
+    /* Styles specific to smaller screens */
+    .club_lin {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 46px;
+    }
+}
+
+@media (max-width: 332px) {
+
+    /* Styles specific to smaller screens */
+    .club_lin {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 51px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* Styles specific to smaller screens */
+    .club_lin {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 56px;
+    }
 }
