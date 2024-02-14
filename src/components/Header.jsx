@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import MenuIcon from '@mui/icons-material/Menu';
 import '../css/team.css';
-
 const Red = {
   color: '#C21717',
 };
@@ -77,3 +76,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+

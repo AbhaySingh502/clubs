@@ -2,8 +2,9 @@
 import './App.css';
 import Carousel from './components/Crousel';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from './components/Header';
 import Home from './components/Home';
-import Clubs_card from './clubs/Clubs_card';
+import Club from './clubs/Club';
 import Kritash from './clubspages/Kritash';
 import Abhivayakt from './clubspages/Abhivayakt';
 import Arthitics from './clubspages/Arthitics';
@@ -17,16 +18,18 @@ import Sae from './clubspages/Sae';
 import Wellbeing from './clubspages/Wellbeing';
 import Sport_main from './sports/Sport_main';
 import Gallery from './components/Gallery'
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Clubs" element={<Clubs_card />} />
+          <Route path="/Clubs" element={<Club />} />
           <Route path="/Sports" element={<Sport_main />} />
           <Route path="/Gallery" element={<Gallery />} />
         </Routes>
+
         <Routes>
           <Route path="/Abhivayakt" element={<Abhivayakt />} />
           <Route path="/Arthitics" element={<Arthitics />} />
@@ -41,7 +44,6 @@ function App() {
           <Route path="/Wellbeing" element={<Wellbeing />} />
         </Routes>
       </BrowserRouter>
-
     </div>
 
   );

@@ -1,0 +1,35 @@
+/* Progress.css */
+
+.progress-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.circular-progress {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: #3498db;
+    transform-origin: 100%;
+    transition: transform 0.2s;
+}
+
+.percentage-text {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #333;
+}

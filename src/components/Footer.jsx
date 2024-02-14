@@ -1,8 +1,10 @@
 import React from 'react'
-
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Footer() {
     return (
-        <div className='mt-3'>
+        <div className='mt-3' style={{ backgroundColor: 'aliceblue', boxShadow: 'black 5px 5px 20px' }}>
 
             <div class="container">
                 <footer class="py-5">
@@ -17,8 +19,8 @@ function Footer() {
                             </ul>
                         </div>
 
-                        <div class="col-md-5 offset-md-1 mb-3">
-                            <form>
+                        <div class="col-md-5 offset-md-1">
+                            <form className='mb-5'>
                                 <h5>Subscribe to our newsletter</h5>
                                 <p>Monthly digest of what's new and exciting from us.</p>
                                 <div class="d-flex flex-column flex-sm-row w-100 gap-2">
@@ -27,6 +29,13 @@ function Footer() {
                                     <button class="btn btn-primary" type="button">Subscribe</button>
                                 </div>
                             </form>
+
+                            <div className="contact_us fs-4">
+                                <span>Follow us: </span>
+                                <InstagramIcon fontSize="large" />
+                                <LinkedInIcon fontSize="large" />
+                                <YouTubeIcon fontSize="large" />
+                            </div>
                         </div>
                     </div>
 
