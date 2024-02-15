@@ -1,16 +1,9 @@
 import React from 'react'
 import '../css/Indiviual.css'
-import robotic from '../logos/Picture1.png'
-// import robo1 from './robo1.jpg'
-// import robo2 from './robo2.jpg'
 import Header from "../components/Header.jsx"
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import YouTubeIcon from '@mui/icons-material/YouTube';
 import Tilt from 'react-parallax-tilt'
-import Team from '../team/Team.jsx'
-import Crousel from '../components/Crousel.jsx'
 import Individual_page_bottom from '../clubs/Individual_page_bottom.jsx'
+import kritash_data from '../data/kritash_data.js'
 import coding_data from '../data/coding_data.js'
 const Red = {
   color: "#C21717",
@@ -18,54 +11,74 @@ const Red = {
 const Blue = {
   color: "#003f87",
 };
-// const while_hover = {
-//   paddingLeft:"20px",    
-//   transition:{duration:0.2}
-// }
-function Coding() {
+
+const imageData = [
+  './Nasetes/Picture1.png',
+  './Nasetes/Picture2.png',
+  './Nasetes/Picture3.png',
+  './Nasetes/Picture4.png',
+  './Nasetes/Picture5.png',
+  './Nasetes/Picture6.png',
+  './Nasetes/Picture7.png',
+  './Nasetes/Picture8.png',
+  './Nasetes/Picture9.png',
+  './Nasetes/Picture10.png',
+  './Nasetes/Picture11.JPG',
+  './Nasetes/Picture12.JPG',
+  './Nasetes/Picture13.JPG',
+  './Nasetes/Picture14.JPG',
+  './Nasetes/Picture15.JPG',
+  './Nasetes/Picture16.JPG',
+  './Nasetes/Picture17.JPG',
+  './Nasetes/Picture18.JPG',
+  './Nasetes/Picture19.JPG',
+  './Nasetes/Picture20.JPG',
+  './Nasetes/Picture21.JPG',
+  './Nasetes/Picture22.JPG',
+  './Nasetes/Picture23.JPG',
+  './Nasetes/Picture24.JPG',
+  './Nasetes/Picture25.JPG',
+  './Nasetes/Picture26.JPG',
+  './Nasetes/Picture27.JPG',
+  './Nasetes/Picture28.png',
+  // Add more image paths as needed
+];
+function Kritash() {
   return (
     <div className='clubpages' style={{ height: "100vh" }} >
       <Header />
-      <div className="clubpages_title">
-        <h1>CODING</h1>
+      <div className="clubpages_title mt-5">
+        <h1 style={{ borderBottom: '0.3rem solid green', borderRadius: '5px' }}>KRITASH</h1>
       </div>
-      <hr className="round" />
-      <div className="clubpages_main">
-        <div className='clubpages_left'>
-          <div className="clubpages_up">
-            <img src={robotic} alt="" />
-            <div className="clubpages_text">
-              <div className="club_icons">
-                <a href="{insta_id}"><InstagramIcon sx={{ color: "#0d6efd", fontSize: 30 }} /></a>
-                <a href="{linkedin}"><LinkedInIcon sx={{ color: "#0d6efd", fontSize: 30 }} /></a>
-                <a href="{youtube}"><YouTubeIcon sx={{ color: "#0d6efd", fontSize: 30 }} /></a>
 
-              </div>
+      <div className="clubpages_main d-flex">
+        <div className='clubpages_left w-70'>
+          <div className="clubpages_up d-flex mt-2">
+            <img src='./assetes/coding.png' className='img-fluid rounded-start me-3' alt="" />
+            <div className="clubpages_text">
+
               <Tilt style={{ display: "inline-block" }} tiltMaxAngleX={"3"} tiltMaxAngleY={"2"}>
                 <div className="clubpages_about" style={{ textAlign: "left", color: "black", fontSize: "20px", fontWeight: "600" }}>
                   <p>
-                    Coding is the social welfare club of IIT Jammu. Coding is derived from the words “Krit” which means creating + “Asha” which means hope, summing up the tagline of “Coding” as “the one who creates hope”.We are here to make every possible effort to uplift the condition of the underprivileged, spread awareness, and in the process inculcate in our members a sense of social responsibility. This club was formed in the year 2017 by Abhishek Kumar Gupta with the aim of social welfare alongwith the primary focus of teaching the underprivileged children. Today, this club has expanded to organise donation drives, spread health and hygiene awareness, conduct cultural events to teach ethical values and much more. Coding currently has two coordinators Ayush Raj and Riddhima Pandey. The club coordinators oversee the entire functioning of the club and all the teams which are working under Coding to ensure the smooth functioning of this club.There are mainly seven teams which help to run Coding efficiently:Aksharshala Content Writing Design Event Management Media and Marketing Sponsorship and Outreach Web Development
+                    The Coding Club prioritizes the continuous improvement of its members' coding skills. Regular meetings and workshops are organized to facilitate the exchange of knowledge, covering a spectrum of programming languages, development tools, and software engineering practices between the mentors and the club members.
+                    The Coding Club encourages its members to participate in coding competitions and challenges. This not only allows members to test their coding abilities but also enhances their competitive spirit and prepares them for industry-standard coding assessments.
+                    The club often hosts guest speakers, including professionals from the tech industry, alumni, and experts in specific coding domains. These talks provide valuable insights into industry trends, career paths, and the practical application of coding skills.The club maintains an active online presence through platforms such as websites, social media, and coding collaboration tools. This ensures effective communication, resource sharing, and a virtual space for members to connect and collaborate.
                   </p>
                 </div>
               </Tilt>
             </div>
           </div>
-          <hr className="round" />
-          <div className="clubpages_down">
+          <div className="clubpages_down mb-2 mt-5">
 
             <div className="clubpages_down_heading">
               <h4>
                 <span style={Red}>EVENTS</span>
                 <span> &</span>
-                <span style={Blue}> COMPETATION</span>
+                <span style={Blue}> COMPETITIONS</span>
               </h4>
             </div>
 
             <div className="clubpages_down_details">
-              <div className="clubpages_crousel">
-                <h4>Important events</h4>
-                <Crousel />
-              </div>
               <div >
 
                 {coding_data.map((item, index) => {
@@ -78,21 +91,29 @@ function Coding() {
           </div>
         </div>
 
-        <span className="vl"></span>
+        <span className="vl border-start border-2 border-primary opacity-60"></span>
 
-        <div className='clubpages_right'>
-          <div className="clubpages_right_title">
+        <div className='clubpages_right w-30'>
+          <div className="clubpages_right_title mb-4">
             <h4>
-              <span style={Red}>CLUB</span>
+              <span className='fs-2' style={Red}>CLUB</span>
               {/* <span> AND</span> */}
-              <span style={Blue}> MEMBERS</span>
+              <span className='fs-2' style={Blue}> MOMENTS</span>
             </h4>
           </div>
-
+          <div className="gallery">
+            {imageData.map((item, index) => {
+              return (
+                <div className="pics" key={index}>
+                  <img src={item} style={{ width: "100%" }} />
+                </div>
+              )
+            })}
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default Coding
+export default Kritash

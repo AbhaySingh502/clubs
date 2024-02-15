@@ -60,6 +60,7 @@ body {
 }
 
 .clubpages_up {
+    height: 20%;
     display: flex;
     margin-top: 5px;
 }

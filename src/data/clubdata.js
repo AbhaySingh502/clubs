@@ -86,7 +86,7 @@ const clubdata = [
         high: "17.1rem"
     },
     {
-        // done social
+        // &
         key: 8,
         name: "BEAT STREET",
         para: "BeatStreet at IIT Jammu is more than just a dance club; it's a rhythm-filled haven for students passionate about movement and expression. From contemporary beats to classical rhythms, this club is a melting pot of dance styles. Through workshops, practices, and performances, it nurtures talent, fosters creativity, and creates a vibrant community where students can share their love for dance and showcase their skills. BeatStreet isn't just about perfecting steps; it's about creating connections, telling stories, and spreading the joy of dance across the campus.",
@@ -98,6 +98,7 @@ const clubdata = [
         high: "16.3rem"
     },
     {
+        // 
         key: 9,
         name: "WELLBEING",
         para: "The Wellbeing Club at IIT Jammu prioritizes students' holistic health, emphasizing mental and physical wellness within the demanding academic environment. Through workshops, seminars, and peer support initiatives, it provides a platform for stress management, mindfulness, and physical activities. Additionally, the club connects students with mental health counselors, ensuring comprehensive support for their academic and personal well-being.",
@@ -108,9 +109,20 @@ const clubdata = [
         club_link: "/Wellbeing",
         high: "17.4rem"
     },
-    // technical clubs
     {
         key: 10,
+        name: "Chitraka",
+        para: "CHITRAKA is the Photography and Filmmaking Club at IIT Jammu. In this club, we focus on teaching students the art of using DSLR cameras, providing guidance, and enhancing their photography skills. Additionally, we offer instruction in videography. The club facilitates learning by providing cameras to our students. Various events and competitions are organized for everyone interested in participating, creating a vibrant and dynamic environment within the club.",
+        insta_id: "https://www.instagram.com/chitraka_iitjmu/",
+        youtube: "#",
+        linkedin: "#",
+        image: "/assetes/Chitraka.png",
+        club_link: "/Chitraka",
+        high: "17.4rem"
+    },
+    // technical clubs
+    {
+        key: 11,
         name: "ROBO SAPIENS",
         para: "The Robotics Club of IIT JAMMU (Robosapiens) is an organization that brings together individuals with an interest in robotics and technology. The club aims at fostering learning, collaboration, and hands-on experience in the field of robotics. Members often engage in various activities, including building and programming robots, participating in competitions, and staying updated on advancements in robotics technology. The club provides a platform for students or enthusiasts to explore their passion for robotics, develop technical skills, and work on projects that integrate mechanical, electrical, and software components. Additionally, Robosapiens hosts events, workshops, and outreach activities to promote robotics education and awareness within the community.",
         insta_id: " https://www.instagram.com/robosapiens_iitjammu?igsh=eGd4N3hzcnExaGd4&utm_source=qr",
@@ -122,7 +134,7 @@ const clubdata = [
     },
     {
         // done
-        key: 11,
+        key: 12,
         name: "FINTECH",
         para: "The Fintech Club at IIT Jammu is a dynamic student Club dedicated to the field of finance with technology. Comprising passionate students, the club serves as a platform for discussions, workshops, and hands-on real market experience in the form of various trade fests organized by the club.. Through collaborative initiatives and guest lectures, the Fintech Club enhances the understanding of financial technologies, preparing its members for the evolving landscape of the fintech industry.",
         insta_id: " https://www.instagram.com/fintech.iitjammu?igsh=MXQxMm04MXlvdHp6Yw%3D%3D&utm_source=qr",
@@ -134,19 +146,19 @@ const clubdata = [
     },
     {
         // done
-        key: 12,
+        key: 13,
         name: "SAE",
         para: "They use color theory. Color theory is a practical combination of art and science that’s used to determine what colors look good together. The color wheel was invented in 1666 by Isaac Newton, who mapped the color spectrum onto a circle. The color wheel is the basis of color theory, because it shows the relationship between colors.Colors that look good together are called a color harmony. Artists and designers use these to create a particular look or feel. You can use a color wheel to find color harmonies by using the rules of color combinations. Color combinations determine the relative positions of different colors in order to find colors that create a pleasing effect.",
-        insta_id: "https://www.instagram.com/devinchugh",
+        insta_id: "https://www.instagram.com/sae_iitjmu/",
         youtube: "#",
-        linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
+        linkedin: "#",
         image: "/assetes/sae.png",
         club_link: "/Sae",
         high: "20.8rem"
     },
     {
         // done
-        key: 13,
+        key: 14,
         name: "CODING",
         para: "The Coding Club of IIT Jammu is a dynamic organization that unites individuals with a shared interest in coding and programming.           The Coding Club prioritizes the continuous improvement of its members' coding skills. Regular meetings and workshops are organized to facilitate the exchange of knowledge, covering a spectrum of programming languages, development tools, and software engineering practices between the mentors and the club members.   The Coding Club encourages its members to participate in coding competitions and challenges. This not only allows members to test their coding abilities but also enhances their competitive spirit and prepares them for industry-standard coding assessments..",
         insta_id: "#",

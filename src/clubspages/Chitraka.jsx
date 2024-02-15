@@ -3,7 +3,7 @@ import '../css/Indiviual.css'
 import Header from "../components/Header.jsx"
 import Tilt from 'react-parallax-tilt'
 import Individual_page_bottom from '../clubs/Individual_page_bottom.jsx'
-import nac_data from '../data/nac_data.js'
+import chitraka_data from '../data/chitraka_data.js'
 const Red = {
     color: "#C21717",
 };
@@ -42,24 +42,24 @@ const imageData = [
     './Nasetes/Picture28.png',
     // Add more image paths as needed
 ];
-function NAC() {
+function Chitraka() {
     return (
         <div className='clubpages' style={{ height: "100vh" }} >
             <Header />
             <div className="clubpages_title mt-5">
-                <h1 style={{ borderBottom: '0.3rem solid green', borderRadius: '5px' }}>NAC</h1>
+                <h1 style={{ borderBottom: '0.3rem solid green', borderRadius: '5px' }}>CHITRAKA</h1>
             </div>
 
             <div className="clubpages_main d-flex">
                 <div className='clubpages_left w-70'>
-                    <div className="clubpages_up d-flex mt-2" style={{ height: "15%" }}>
-                        <img src='./assetes/NAC_Logo.png' className='img-fluid rounded-start me-3' alt="" />
+                    <div className="clubpages_up d-flex mt-2">
+                        <img src='./assetes/Chitraka.png' className='img-fluid rounded-start me-3' alt="" />
                         <div className="clubpages_text">
 
                             <Tilt style={{ display: "inline-block" }} tiltMaxAngleX={"3"} tiltMaxAngleY={"2"}>
                                 <div className="clubpages_about" style={{ textAlign: "left", color: "black", fontSize: "20px", fontWeight: "600" }}>
                                     <p>
-                                        NAC is the social welfare club of IIT Jammu, which is dedicated to helping the needy and contributing to the betterment of society. This club was formed in 2017 by Abhishek Kumar Gupta with the aim of social welfare and the primary focus of teaching underprivileged children. Today, this club has expanded to organize donation drives, spread health and hygiene awareness, conduct cultural events to teach ethical values, and much more. NAC is derived from the words “Krit” (which means creating) + “Asha” (which means hope), summing up the tagline of “NAC” as “the one who creates hope.” We are here to make every possible effort to uplift the condition of the underprivileged, spread awareness, and inculcate in our members a sense of social responsibility. NAC currently has two coordinators Ayush Raj and Riddhima Pandey.
+                                        CHITRAKA is the Photography and Filmmaking Club at IIT Jammu. In this club, we focus on teaching students the art of using DSLR cameras, providing guidance, and enhancing their photography skills. Additionally, we offer instruction in videography. The club facilitates learning by providing cameras to our students. Various events and competitions are organized for everyone interested in participating, creating a vibrant and dynamic environment within the club.
                                     </p>
                                 </div>
                             </Tilt>
@@ -78,7 +78,7 @@ function NAC() {
                         <div className="clubpages_down_details">
                             <div >
 
-                                {nac_data.map((item, index) => {
+                                {chitraka_data.map((item, index) => {
                                     return (
                                         <Individual_page_bottom {...item} />
                                     )
@@ -113,4 +113,4 @@ function NAC() {
     )
 }
 
-export default NAC
+export default Chitraka

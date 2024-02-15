@@ -17,7 +17,7 @@ function Club() {
                                 <p className='fs-5 fw-lighter lh-base'>The cultural activities at IITGN are coordinated by the Cultural Council and play a crucial role in fostering creativity and confidence among students. These events are directed towards developing balanced and well-rounded individuals. Over the years, the student body has come up with a plethora of events and competitions covering a vast spectrum of activities including  drama, photography, art expo and much more.</p>
 
 
-                                {clubdata.slice(0, 9).map((item, index) => {
+                                {clubdata.slice(0, 10).map((item, index) => {
                                     return (
                                         <Clubs_card {...item} />
                                     )
@@ -31,7 +31,7 @@ function Club() {
                                 Technology has revolutionized the world and holds the key to our future. Being a new IIT, there is a need and room for technical developments, which would help the institute to achieve greater heights.  IITGN holds technical activities at regular intervals, co-ordinated by the various clubs.
                             </p>
 
-                            {clubdata.slice(9,).map((item, index) => {
+                            {clubdata.slice(11,).map((item, index) => {
                                 return (
                                     <Clubs_card {...item} />
                                 )

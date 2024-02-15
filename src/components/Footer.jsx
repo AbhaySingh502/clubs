@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className='mt-3' style={{ backgroundColor: 'aliceblue', boxShadow: 'black 5px 5px 20px' }}>
 
-            <div class="container">
+            <div class="container w-100">
                 <footer class="py-5">
                     <div class="row">
                         <div class="col-6 col-md-2 mb-3">
@@ -19,7 +19,7 @@ function Footer() {
                             </ul>
                         </div>
 
-                        <div class="col-md-5 offset-md-1">
+                        <div class="col-md-4 offset-md-1">
                             <form className='mb-5'>
                                 <h5>Subscribe to our newsletter</h5>
                                 <p>Monthly digest of what's new and exciting from us.</p>

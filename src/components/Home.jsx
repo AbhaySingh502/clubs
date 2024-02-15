@@ -1,10 +1,11 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-import Carousel from './Crousel'
+
+import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import Upcoming_events from './Upcoming_events'
 import upcoming_events from '../data/upcoming_events'
-import Inspire from './Inspire'
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 const Red = {
   color: "#C21717",
 };
@@ -35,17 +36,18 @@ function Home() {
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <ArrowLeftIcon className="carousel-control-prev-icon" style={{ width: '5rem', height: '4rem' }} aria-hidden="true" />
             <span className="visually-hidden">Previous</span>
           </button>
           <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+
+            <ArrowRightIcon className="carousel-control-next-icon" style={{ width: '5rem', height: '4rem' }} aria-hidden="true" />
             <span className="visually-hidden">Next</span>
           </button>
         </div>
       </div>
-      <div className="up_heading mt-3 mb-3" >
-        <h4>
+      <div className="up_heading mt-4 mb-4" >
+        <h4 className='fs-3'>
           <span style={Red}>UPCOMING</span>
           <span> &</span>
           <span style={Blue}> ONGOING</span>

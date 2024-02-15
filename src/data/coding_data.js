@@ -1,32 +1,32 @@
 const coding_data = [
     {
         key: 1,
-        name: "Blood Donation Drive",
-        para: "Kritash in collaboration with Medical Centre, IIT JAMMU and GMC Jammu hosted a blood donation drive on Oct 13, 2023. In this donation drive more than 50 volunteers donated blood for a good cause, making it a successful event.",
+        name: "SQL Course Launch",
+        para: "Launch of a course on SQL and basic introductory session. Classes on every Saturday and Sunday",
         source_url: "#",
     },
     {
         key: 2,
-        name: "Cleanliness Drive",
-        para: "Kritash led a transformative cleanliness initiative near IIT Jammu on 1st of October, 2023, uniting students, faculty, and staff to enhance the campus environment. The campaign included a thorough litter clean-up effort where enthusiastic volunteers used trash bags to revitalize neglected areas. This drive not only improved aesthetics but also promoted environmental stewardship, fostering a more responsible and cleaner community",
+        name: "Workshop on Development ",
+        para: "Introduction to HTML,CSS,Javascript and building a basic webpage",
         source_url: "#"
     },
     {
         key: 3,
-        name: "Guest talk on Waste Management",
-        para: "Kritash hosted a guest talk on the topic Solid waste management,on 18th of October 2023, where Miss Nupur Tandon ( Founding Director, Pro Waste Concepts Pvt. Ltd.) was the guest speaker. She shared her knowledge and guided us through various methods through which we could reduce and manage waste properly.",
+        name: "Workshop on Inter IIT Tech meet ",
+        para: "Motivational session to participate in Inter IIT",
         source_url: "#"
     },
     {
         key: 4,
-        name: "Free Multispeciality Health Checkup camp",
-        para: "Kritash, in partnership with SIBA, organized a free multispecialty health checkup for the welfare of IITians on September 22, 2023. Amandeep Hospital, Green Court Hospital, and Sehora Dental College participated. The event was inaugurated by Prof. Vijayan Palippattu and Dr. Karunika. Students, faculty, staff, and residents received free checkups, boosting doctor's morale. Services included eye tests, dental care, and more. The event concluded with acknowledgments for those who contributed to its success.",
+        name: "Workshop and Network & Security deparment",
+        para: "A deep dive into cybersecurity and advanced linux commands   ",
         source_url: "#"
     },
     {
         key: 5,
-        name: "Aksharshala Teaching Program",
-        para: "Weekends see Kritash members venturing to the nearby Kamini village,where they impart knowledge to underprivileged children, embodying the belief that education is not confined to classrooms but extends to every corner of society",
+        name: "Hackathon on CP (CodeStorm)",
+        para: "6hr hackathon,Round 1: Blind Coding,Round 2: CP roundRound 3: Harder questions on CP and blind coding",
         source_url: "#"
     },
 ]

@@ -13,7 +13,7 @@ function Individual_page_bottom({ key, name, para, source_url }) {
             <span style={Blue}>{name}</span>
           </div>
         </div>
-        <div className="cdd_down d-flex flex-column align-items-center">
+        <div className="d-flex flex-column">
           <div className="cdd_down_para text-justify">
             {para}
           </div>

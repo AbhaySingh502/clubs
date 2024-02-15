@@ -1,15 +1,7 @@
 import React from 'react'
 import '../css/Indiviual.css'
-// import robotic from '../logos/Picture1.png'
-// import robo1 from './robo1.jpg'
-// import robo2 from './robo2.jpg'
 import Header from "../components/Header.jsx"
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import YouTubeIcon from '@mui/icons-material/YouTube';
 import Tilt from 'react-parallax-tilt'
-import Team from '../team/Team.jsx'
-import Crousel from '../components/Crousel.jsx'
 import Individual_page_bottom from '../clubs/Individual_page_bottom.jsx'
 import kritash_data from '../data/kritash_data.js'
 const Red = {
@@ -50,10 +42,6 @@ const imageData = [
   './Nasetes/Picture28.png',
   // Add more image paths as needed
 ];
-// const while_hover = {
-//   paddingLeft:"20px",    
-//   transition:{duration:0.2}
-// }
 function Kritash() {
   return (
     <div className='clubpages' style={{ height: "100vh" }} >
@@ -83,7 +71,7 @@ function Kritash() {
               <h4>
                 <span style={Red}>EVENTS</span>
                 <span> &</span>
-                <span style={Blue}> COMPETATION</span>
+                <span style={Blue}> COMPETITIONS</span>
               </h4>
             </div>
 

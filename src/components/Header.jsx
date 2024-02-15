@@ -48,22 +48,22 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto w-50 justify-content-evenly">
               <Nav.Item>
-                <Link to="/" className="nav-link fs-4 text-primary">
+                <Link to="/" className="nav-link fs-5 text-primary">
                   HOME
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/Clubs" className="nav-link fs-4 text-primary">
+                <Link to="/Clubs" className="nav-link fs-5 text-primary">
                   CLUBS
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/Sports" className="nav-link fs-4 text-primary">
+                <Link to="/Sports" className="nav-link fs-5 text-primary">
                   SPORTS
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/Gallery" className="nav-link fs-4 text-primary">
+                <Link to="/Gallery" className="nav-link fs-5 text-primary">
                   GALLERY
                 </Link>
               </Nav.Item>
