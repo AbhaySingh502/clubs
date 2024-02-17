@@ -36,7 +36,7 @@ const Header = () => {
           <Navbar.Brand>
             <Link to="/" className="d-inline-flex link-body-emphasis text-decoration-none">
               <h2>
-                <span style={Red}>CLUBS</span>
+                <span style={Red}>STUDENT LIFE</span>
                 <span> @</span>
                 <span style={Blue}> IIT JAMMU</span>
               </h2>
