@@ -1,8 +1,6 @@
 
 import './App.css';
-import Carousel from './components/Crousel';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from './components/Header';
 import Home from './components/Home';
 import Club from './clubs/Club';
 import Kritash from './clubspages/Kritash';
@@ -21,7 +19,6 @@ import NAC from './clubspages/NAC';
 import Gallery from './components/Gallery'
 import Fintech from './clubspages/Fintech'
 import Chitraka from './clubspages/Chitraka'
-import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">

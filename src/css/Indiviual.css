@@ -38,10 +38,6 @@ body {
     display: flex;
 }
 
-.clubpages_left {
-
-    width: 70%;
-}
 
 .clubpages_right {
     width: 30%;
@@ -59,11 +55,6 @@ body {
     opacity: 0.6;
 }
 
-.clubpages_up {
-    height: 20%;
-    display: flex;
-    margin-top: 5px;
-}
 
 .clubpages_down {
     margin-bottom: 5px;
@@ -155,10 +146,6 @@ body {
 .cdd_main {
     margin-bottom: 2rem;
     display: flex;
-}
-
-.cdd_left {
-    width: 75%;
 }
 
 .cdd_right {

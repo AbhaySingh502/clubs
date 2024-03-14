@@ -3,7 +3,7 @@ const kritash_data = [
         key: 1,
         name: "Blood Donation Drive",
         para: "Kritash in collaboration with Medical Centre, IIT JAMMU and GMC Jammu hosted a blood donation drive on Oct 13, 2023. In this donation drive more than 50 volunteers donated blood for a good cause, making it a successful event.",
-        source_url: "#",
+        source_url: "./assetes/kri.png",
     },
     {
         key: 2,
