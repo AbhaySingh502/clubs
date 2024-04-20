@@ -24,10 +24,6 @@ const Sports_card = ({ key, icon, title, image, shortpara, para }) => {
                     {shortpara}
                 </Typography>
             </CardContent>
-            <div className="cordinator text-start mb-3 ps-3">
-                <span className='fs-5'>Club Cordinator: </span>
-                <span className='fs-4 text-primary'>XYZ </span>
-            </div>
         </Card>
     )
 }

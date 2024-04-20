@@ -5,6 +5,29 @@ import Crousel from './Crousel.jsx'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx';
 const imageData = [
+  './assetes/pic1.jpg',
+  './assetes/pic2.jpg',
+  './assetes/pic3.jpg',
+  './assetes/pic4.jpg',
+  './assetes/pic7.jpg',
+  './assetes/pic8.jpg',
+  './assetes/pic9.jpg',
+  './assetes/pic10.jpg',
+  './assetes/pic11.jpg',
+  './assetes/pic12.jpg',
+  './assetes/pic13.jpg',
+  './assetes/pic14.jpg',
+  './assetes/pic15.jpg',
+  './assetes/pic16.jpg',
+  './assetes/pic17.jpg',
+  './assetes/pic18.jpg',
+  './assetes/pic19.jpg',
+  './assetes/pic20.jpg',
+  './assetes/pic21.jpg',
+  './assetes/pic22.jpg',
+  './assetes/pic24.jpg',
+  './assetes/pic28.jpg',
+
   './Nasetes/Picture1.png',
   './Nasetes/Picture2.png',
   './Nasetes/Picture3.png',
@@ -41,7 +64,7 @@ export function Gallery() {
   return (
     <>
       <Header />
-      <div className="gallery_crousel m-4">
+      <div className="gallery_crousel mb-4 w-100">
         <Crousel />
       </div>
 

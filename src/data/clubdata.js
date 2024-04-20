@@ -16,26 +16,29 @@ const clubdata = [
     {
         // done
         key: 2,
-        name: "ABHIVYAKT",
-        para: "The Literary Club of IIT Jammu, also known as Abhivaykt, aims to promote the passion for literature and the desire to enhance the imagination of all. Our main focus is to provide a platform where everyone can express their views and opinions with like-minded individuals. Club meetings, on one hand, often include debates, improv, and such to help one improve speaking skills and regular sessions like creative writing, poetry writing and recitation to help express their thoughts on paper and verbally.  We wish for each and every person to express their uniqueness, and to feel at ease while doing so.",
-        insta_id: "https://www.instagram.com/abhivyakt.iitjmu?igsh=aXVwZ2w4NnZoeXRu",
+        name: "NAC",
+        para: "The Nature and Adventure Club (NAC) of IIT Jammu is committed to fostering a culture of adventure and nature conservation within the student community. NAC actively coordinates a diverse range of adventurous activities, including trekking, hiking, camping, river rafting, rock climbing, paragliding, bungee jumping, and various other exciting pursuits. In alignment with its focus on nature-related events, the club also conducts initiatives such as plantation drives, cleanliness drives, guest talks, riverfront cleaning, and more. Through these activities, NAC aims to empower students with a deep appreciation for nature and a sense of responsibility towards its preservation.",
+        insta_id: "https://www.instagram.com/nac_iitjmu/",
         youtube: "#",
         linkedin: "#",
-        image: "/assetes/abhivyakt.png",
-        club_link: "/Abhivayakt",
-        high: "21rem"
+        image: "/assetes/NAC_Logo.png",
+        club_link: "/NAC",
+        high: "19.4rem"
+
     },
     {
         // done
+
         key: 3,
-        name: "ARTHIC",
-        para: "Welcome to the Fine Arts Club – where imagination takes center stage. Our club at IIT Jammu, known as 'Artihc,' is a haven for those who appreciate the beauty of fine arts. From painting to sculpture, we offer a space for members to explore, create, and share their artistic talents. Engage in hands-on sessions, exhibit your masterpieces, and connect with fellow enthusiasts who share a passion for the finer details of artistic expression. Join Artihc, where every stroke tells a story, and the canvas becomes a playground for your creative spirit.",
-        insta_id: "https://www.instagram.com/artihc.iitjmu/",
+        name: "WELLBEING",
+        para: "The Wellbeing Club at IIT Jammu prioritizes students' holistic health, emphasizing mental and physical wellness within the demanding academic environment. Through workshops, seminars, and peer support initiatives, it provides a platform for stress management, mindfulness, and physical activities. Additionally, the club connects students with mental health counselors, ensuring comprehensive support for their academic and personal well-being.",
+        insta_id: "https://www.instagram.com/devinchugh",
         youtube: "#",
-        linkedin: "#",
-        image: "/assetes/artihtic.png",
-        club_link: "/Arthitics",
-        high: "18.9rem"
+        linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
+        image: "/assetes/wellbeing.png",
+        club_link: "/Wellbeing",
+        high: "17.4rem"
+
     },
     {
         // done
@@ -50,16 +53,16 @@ const clubdata = [
         high: "24.5rem"
     },
     {
-
         key: 5,
-        name: "NAC",
-        para: "The Nature and Adventure Club (NAC) of IIT Jammu is committed to fostering a culture of adventure and nature conservation within the student community. NAC actively coordinates a diverse range of adventurous activities, including trekking, hiking, camping, river rafting, rock climbing, paragliding, bungee jumping, and various other exciting pursuits. In alignment with its focus on nature-related events, the club also conducts initiatives such as plantation drives, cleanliness drives, guest talks, riverfront cleaning, and more. Through these activities, NAC aims to empower students with a deep appreciation for nature and a sense of responsibility towards its preservation.",
-        insta_id: "https://www.instagram.com/nac_iitjmu/",
+        name: "ABHIVYAKT",
+        para: "The Literary Club of IIT Jammu, also known as Abhivaykt, aims to promote the passion for literature and the desire to enhance the imagination of all. Our main focus is to provide a platform where everyone can express their views and opinions with like-minded individuals. Club meetings, on one hand, often include debates, improv, and such to help one improve speaking skills and regular sessions like creative writing, poetry writing and recitation to help express their thoughts on paper and verbally.  We wish for each and every person to express their uniqueness, and to feel at ease while doing so.",
+        insta_id: "https://www.instagram.com/abhivyakt.iitjmu?igsh=aXVwZ2w4NnZoeXRu",
         youtube: "#",
         linkedin: "#",
-        image: "/assetes/NAC_Logo.png",
-        club_link: "/NAC",
-        high: "19.4rem"
+        image: "/assetes/abhivyakt.png",
+        club_link: "/Abhivayakt",
+        high: "21rem"
+
     },
     {
         // done
@@ -100,14 +103,14 @@ const clubdata = [
     {
         // 
         key: 9,
-        name: "WELLBEING",
-        para: "The Wellbeing Club at IIT Jammu prioritizes students' holistic health, emphasizing mental and physical wellness within the demanding academic environment. Through workshops, seminars, and peer support initiatives, it provides a platform for stress management, mindfulness, and physical activities. Additionally, the club connects students with mental health counselors, ensuring comprehensive support for their academic and personal well-being.",
-        insta_id: "https://www.instagram.com/devinchugh",
+        name: "ARTHIC",
+        para: "Welcome to the Fine Arts Club – where imagination takes center stage. Our club at IIT Jammu, known as 'Artihc,' is a haven for those who appreciate the beauty of fine arts. From painting to sculpture, we offer a space for members to explore, create, and share their artistic talents. Engage in hands-on sessions, exhibit your masterpieces, and connect with fellow enthusiasts who share a passion for the finer details of artistic expression. Join Artihc, where every stroke tells a story, and the canvas becomes a playground for your creative spirit.",
+        insta_id: "https://www.instagram.com/artihc.iitjmu/",
         youtube: "#",
-        linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
-        image: "/assetes/wellbeing.png",
-        club_link: "/Wellbeing",
-        high: "17.4rem"
+        linkedin: "#",
+        image: "/assetes/artihtic.png",
+        club_link: "/Arthitics",
+        high: "18.9rem"
     },
     {
         key: 10,

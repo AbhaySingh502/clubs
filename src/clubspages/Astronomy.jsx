@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Indiviual.css'
+import '../css/team.css'
 import Header from "../components/Header.jsx"
 import Tilt from 'react-parallax-tilt'
 import Individual_page_bottom from '../clubs/Individual_page_bottom.jsx'
@@ -51,62 +52,63 @@ function Astronomy() {
       </div>
 
       <div className="clubpages_main d-flex">
-        <div className='clubpages_left w-70'>
-          <div className="clubpages_up d-flex mt-2">
-            <img src='./assetes/kri.png' alt="" />
+        <div className='clubpages_left'>
+          <div className="clubpages_up d-flex mt-2 me-5 ms-5">
             <div className="clubpages_text">
 
               <Tilt style={{ display: "inline-block" }} tiltMaxAngleX={"3"} tiltMaxAngleY={"2"}>
-                <div className="clubpages_about" style={{ textAlign: "left", color: "black", fontSize: "20px", fontWeight: "600" }}>
+                <div className="clubpages_about fs-6" style={{ textAlign: "left", color: "black", fontWeight: "600" }}>
                   <p>
-                    Astronomy is the social welfare club of IIT Jammu, which is dedicated to helping the needy and contributing to the betterment of society. This club was formed in 2017 by Abhishek Kumar Gupta with the aim of social welfare and the primary focus of teaching underprivileged children. Today, this club has expanded to organize donation drives, spread health and hygiene awareness, conduct cultural events to teach ethical values, and much more. Astronomy is derived from the words “Krit” (which means creating) + “Asha” (which means hope), summing up the tagline of “Astronomy” as “the one who creates hope.” We are here to make every possible effort to uplift the condition of the underprivileged, spread awareness, and inculcate in our members a sense of social responsibility. Astronomy currently has two coordinators Ayush Raj and Riddhima Pandey.
+                    Astria-za, the Physics and Astronomy Club at IIT Jammu, is a burgeoning community of passionate students dedicated to exploring the vast realms of physics and astronomy. In its initial stages, the club has already shown remarkable growth and enthusiasm among its members. Astria-za serves as a platform for students to delve into the fascinating mysteries of the universe, fostering a keen interest in both theoretical and observational aspects of physics and astronomy. The club organizes regular meetings, workshops, and stargazing events, providing students with opportunities to engage in hands-on experiences and discussions with like-minded peers. As Astria-za continues to expand, it aims to inspire a new generation of scientists and stargazers, contributing to the academic and intellectual vibrancy of IIT Jammu.
                   </p>
                 </div>
               </Tilt>
             </div>
           </div>
-          <div className="clubpages_down mb-2">
 
-            <div className="clubpages_down_heading">
-              <h4>
-                <span style={Red}>EVENTS</span>
-                <span> &</span>
-                <span style={Blue}> COMPETITIONS</span>
-              </h4>
+          <div className="d-flex">
+            <div className="clubpages_down mb-2" style={{ width: "70%" }}>
+
+              <div className="clubpages_down_heading">
+                <h4>
+                  <span style={Red}>EVENTS</span>
+                  <span> &</span>
+                  <span style={Blue}> COMPETITIONS</span>
+                </h4>
+              </div>
+
+              <div className="clubpages_down_details">
+                <div >
+
+                  {astronomy_data.map((item, index) => {
+                    return (
+                      <Individual_page_bottom {...item} />
+                    )
+                  })}
+                </div>
+              </div>
             </div>
-
-            <div className="clubpages_down_details">
-              <div >
-
-                {astronomy_data.map((item, index) => {
+            <span className="vl border-start border-2 border-primary opacity-60"></span>
+            <div className='clubpages_right w-30'>
+              <div className="clubpages_right_title mb-4">
+                <h4>
+                  <span className='fs-2' style={Red}>CLUB</span>
+                  {/* <span> AND</span> */}
+                  <span className='fs-2' style={Blue}> MOMENTS</span>
+                </h4>
+              </div>
+              <div className="gallery">
+                {imageData.map((item, index) => {
                   return (
-                    <Individual_page_bottom {...item} />
+                    <div className="pics" key={index}>
+                      <img src={item} style={{ width: "100%" }} />
+                    </div>
                   )
                 })}
               </div>
             </div>
           </div>
-        </div>
 
-        <span className="vl border-start border-2 border-primary opacity-60"></span>
-
-        <div className='clubpages_right w-30'>
-          <div className="clubpages_right_title mb-4">
-            <h4>
-              <span className='fs-2' style={Red}>CLUB</span>
-              {/* <span> AND</span> */}
-              <span className='fs-2' style={Blue}> MOMENTS</span>
-            </h4>
-          </div>
-          <div className="gallery">
-            {imageData.map((item, index) => {
-              return (
-                <div className="pics" key={index}>
-                  <img src={item} style={{ width: "100%" }} />
-                </div>
-              )
-            })}
-          </div>
         </div>
       </div>
     </div>

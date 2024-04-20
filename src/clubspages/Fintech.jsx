@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Indiviual.css'
+import '../css/team.css'
 import Header from "../components/Header.jsx"
 import Tilt from 'react-parallax-tilt'
 import Individual_page_bottom from '../clubs/Individual_page_bottom.jsx'
@@ -51,13 +52,12 @@ function Fintech() {
             </div>
 
             <div className="clubpages_main d-flex">
-                <div className='clubpages_left w-70'>
-                    <div className="clubpages_up d-flex mt-2">
-                        <img src='./assetes/fintech.png' className='img-fluid rounded-start me-3' alt="" />
+                <div className='clubpages_left'>
+                    <div className="clubpages_up d-flex mt-2 me-5 ms-5">
                         <div className="clubpages_text">
 
                             <Tilt style={{ display: "inline-block" }} tiltMaxAngleX={"3"} tiltMaxAngleY={"2"}>
-                                <div className="clubpages_about" style={{ textAlign: "left", color: "black", fontSize: "20px", fontWeight: "600" }}>
+                                <div className="clubpages_about fs-6" style={{ textAlign: "left", color: "black", fontWeight: "600" }}>
                                     <p>
                                         The Fintech Club at IIT Jammu is a dynamic student Club dedicated to the field of finance with technology. Comprising passionate students, the club serves as a platform for discussions, workshops, and hands-on real market experience in the form of various trade fests organized by the club.. Through collaborative initiatives and guest lectures, the Fintech Club enhances the understanding of financial technologies, preparing its members for the evolving landscape of the fintech industry.
                                     </p>
@@ -65,48 +65,50 @@ function Fintech() {
                             </Tilt>
                         </div>
                     </div>
-                    <div className="clubpages_down mb-2">
 
-                        <div className="clubpages_down_heading">
-                            <h4>
-                                <span style={Red}>EVENTS</span>
-                                <span> &</span>
-                                <span style={Blue}> COMPETITIONS</span>
-                            </h4>
+                    <div className="d-flex">
+                        <div className="clubpages_down mb-2" style={{ width: "70%" }}>
+
+                            <div className="clubpages_down_heading">
+                                <h4>
+                                    <span style={Red}>EVENTS</span>
+                                    <span> &</span>
+                                    <span style={Blue}> COMPETITIONS</span>
+                                </h4>
+                            </div>
+
+                            <div className="clubpages_down_details">
+                                <div >
+
+                                    {fintech_data.map((item, index) => {
+                                        return (
+                                            <Individual_page_bottom {...item} />
+                                        )
+                                    })}
+                                </div>
+                            </div>
                         </div>
-
-                        <div className="clubpages_down_details">
-                            <div >
-
-                                {fintech_data.map((item, index) => {
+                        <span className="vl border-start border-2 border-primary opacity-60"></span>
+                        <div className='clubpages_right w-30'>
+                            <div className="clubpages_right_title mb-4">
+                                <h4>
+                                    <span className='fs-2' style={Red}>CLUB</span>
+                                    {/* <span> AND</span> */}
+                                    <span className='fs-2' style={Blue}> MOMENTS</span>
+                                </h4>
+                            </div>
+                            <div className="gallery">
+                                {imageData.map((item, index) => {
                                     return (
-                                        <Individual_page_bottom {...item} />
+                                        <div className="pics" key={index}>
+                                            <img src={item} style={{ width: "100%" }} />
+                                        </div>
                                     )
                                 })}
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <span className="vl border-start border-2 border-primary opacity-60"></span>
-
-                <div className='clubpages_right w-30'>
-                    <div className="clubpages_right_title mb-4">
-                        <h4>
-                            <span className='fs-2' style={Red}>CLUB</span>
-                            {/* <span> AND</span> */}
-                            <span className='fs-2' style={Blue}> MOMENTS</span>
-                        </h4>
-                    </div>
-                    <div className="gallery">
-                        {imageData.map((item, index) => {
-                            return (
-                                <div className="pics" key={index}>
-                                    <img src={item} style={{ width: "100%" }} />
-                                </div>
-                            )
-                        })}
-                    </div>
                 </div>
             </div>
         </div>
