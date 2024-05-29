@@ -54,7 +54,7 @@ const imageData = [
   './Nasetes/Picture24.JPG',
   './Nasetes/Picture25.JPG',
   './Nasetes/Picture26.JPG',
-  './Nasetes/Picture27.JPG',
+
   './Nasetes/Picture28.png',
 
 
@@ -64,6 +64,7 @@ export function Gallery() {
   return (
     <>
       <Header />
+      <h1 className='text-center p-4' style={{ backgroundColor: '#2c385e', color: '#DBE7F5', padding: '20px', textAlign: 'center', borderBottomLeftRadius: '50%', borderBottomRightRadius: '50%' }}>Some Glimpes of Our recent events</h1>
       <div className="gallery_crousel mb-4 w-100">
         <Crousel />
       </div>
@@ -77,7 +78,10 @@ export function Gallery() {
           )
         })}
       </div>
-
+      <p style={{ fontSize: '2rem', marginTop: '1rem' }}>
+        <span style={{ color: 'red' }}>For</span> more Pictures
+        <a href="https://www.iitjammu.ac.in/gallery" style={{ textDecoration: 'none' }}> click here</a>
+      </p>
       <Footer />
     </>
   );

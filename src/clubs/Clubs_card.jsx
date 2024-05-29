@@ -3,7 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
-
+import '../css/upevent.css'
 function Clubs_card({ key, name, para, image, club_link }) {
   return (
     <div className='clubnext' >
@@ -16,26 +16,16 @@ function Clubs_card({ key, name, para, image, club_link }) {
           <YouTubeIcon className='me-3' fontSize="large" />
         </div> */}
       </div>
-      <div className="row bs-examples">
-        <Link to={club_link} className="nav-link fs-4 text-dark" style={{ width: '66%' }}>
+      <div className="row bs-examples" style={{ marginLeft: '0.1rem' }}>
+        <Link to={club_link} className=" para nav-link fs-4 text-dark">
           <div className="col-xs-8 fs-5 fw-normal" >
             <p class="text-justify">{para}</p>
           </div>
         </Link>
-        <div className="col-xs-4 col-md-4" style={{ width: '34%' }}>
+        <div className="col-xs-4 col-md-4">
           <Link to={club_link} className=' nav-link fs-4 text-dark fancybox thumbnail' style={{ display: 'block', border: '0.2px solid #ddd', borderRadius: '4px', height: 'fit-content' }}>
             <img src={image} alt="" className='img-fluid rounded-start' />
           </Link>
-
-          {/* 
-          <address>
-            <strong>Club Secretary:</strong>
-            <span>Aishwarya Omar</span>
-            E-mail : <a href="mailto:#" target="_blank"> 16pixels[at]iitgn.ac.in</a>
-          </address> */}
-
-
-
         </div>
       </div>
     </div>

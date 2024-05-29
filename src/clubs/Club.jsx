@@ -3,6 +3,9 @@ import Clubs_card from './Clubs_card'
 import clubdata from '../data/clubdata.js'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Upcoming_events from '../components/Upcoming_events.jsx'
+import upcoming_events from '../data/upcoming_events'
+import Tilt from 'react-parallax-tilt'
 function Club() {
     return (
         <>
@@ -11,6 +14,16 @@ function Club() {
                 <div className="container bs-docs-container">
                     <div className="row">
                         <div className="col-md-9">
+                            <div className="messa mb-5">
+
+                                {upcoming_events.slice(1,).map((item, index) => {
+                                    return (
+                                        <Tilt style={{ display: "inline-block" }} tiltMaxAngleX={"7"} tiltMaxAngleY={"7"}>
+                                            <Upcoming_events {...item} />
+                                        </Tilt>
+                                    )
+                                })}
+                            </div>
                             <div className="bs-docs-section">
                                 <h2 style={{ borderBottom: '0.4rem solid green', borderRadius: '5px' }}>Socail Clubs</h2>
                                 <p className='fs-5 fw-lighter lh-base'>The social activities at IIT Jammu are coordinated by the social clubs and play a crucial role in fostering creativity and confidence among students. These events are directed towards developing balanced and well-rounded individuals. Over the years, the student body has come up with a plethora of events and competitions covering a vast spectrum of activities including  blood donation, yoga session, aksharshala and much more.</p>

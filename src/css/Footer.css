@@ -1,0 +1,41 @@
+.footer-container {
+    background-color: aliceblue;
+    box-shadow: black 5px 5px 20px;
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: rgb(184, 21, 224);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: blue;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
+    background: blue;
+}

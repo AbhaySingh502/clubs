@@ -89,3 +89,103 @@
     font-weight: 700;
     color: #fff;
 }
+
+@media screen and (max-width: 400px) {
+    .head {
+        font-size: 1.2rem;
+    }
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.con {
+    margin-right: 10px;
+    /* Adjust as needed */
+    margin-bottom: 10px;
+    /* Adjust as needed */
+}
+
+.con a {
+    text-decoration: none;
+    color: #333;
+    /* Adjust color as needed */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border: 1px solid #333;
+    /* Adjust border as needed */
+    border-radius: 5px;
+    /* Adjust border-radius as needed */
+    transition: all 0.3s ease;
+}
+
+.con a:hover {
+    background-color: #333;
+    /* Adjust hover background color as needed */
+    color: #fff;
+    /* Adjust hover text color as needed */
+}
+
+/* .container{
+    background-image: url('/assetes/pic19.jpg');
+}
+.container .main .circle {
+    border: 10px solid red;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.container .main h2 {
+    border-bottom: 4px solid red;
+} */
+.buton {
+    background-color: ghostwhite;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.icon-container .icon {
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    width: 140px;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.icon-container .icon.clubs {
+    border: 6px solid red;
+}
+
+.icon-container .icon.events {
+    border: 6px solid green;
+}
+
+.icon-container .icon.sports {
+    border: 6px solid #2196f3;
+}
+
+.icon-container h4 {
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.icon-container p {
+    color: #555;
+}

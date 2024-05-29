@@ -45,7 +45,9 @@ function Sport_main() {
 
           {sportdata.slice(0, 3).map((item, index) => {
             return (
-              <Sports_card {...item} />
+              <div className="mb-4" style={{ width: 'fit-content' }}>
+                <Sports_card {...item} />
+              </div>
             )
           })}
 
@@ -54,7 +56,9 @@ function Sport_main() {
 
           {sportdata.slice(3, 6).map((item, index) => {
             return (
-              <Sports_card {...item} />
+              <div className="mb-4" style={{ width: 'fit-content' }}>
+                <Sports_card {...item} />
+              </div>
             )
           })}
 
@@ -63,7 +67,9 @@ function Sport_main() {
 
           {sportdata.slice(6, 9).map((item, index) => {
             return (
-              <Sports_card {...item} />
+              <div className="mb-4" style={{ width: 'fit-content' }}>
+                <Sports_card {...item} />
+              </div>
             )
           })}
 
