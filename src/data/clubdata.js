@@ -21,7 +21,7 @@ const clubdata = [
         insta_id: "https://www.instagram.com/nac_iitjmu/",
         youtube: "#",
         linkedin: "#",
-        image: "/assetes/NAC_Logo.png",
+        image: "/assetes/nac.png",
         club_link: "/NAC",
         high: "19.4rem"
 

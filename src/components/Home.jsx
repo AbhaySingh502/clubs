@@ -1,11 +1,8 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-import Upcoming_events from './Upcoming_events'
-import upcoming_events from '../data/upcoming_events'
 import Tilt from 'react-parallax-tilt'
 import '../css/team.css'
-import SchoolIcon from '@mui/icons-material/School';
 import Jammu from './Jammu'
 import HeroSection from './HeroSection'
 const Red = {
@@ -35,14 +32,27 @@ function Home() {
 
         </h4>
       </div>
-      {upcoming_events.slice(0, 1).map((item, index) => {
-        return (
-          <Tilt style={{ display: "inline-block" }} tiltMaxAngleX={"7"} tiltMaxAngleY={"7"}>
-            <Upcoming_events {...item} />
-          </Tilt>
-        )
-      })}
+      <Tilt style={{ display: "inline-block" }} tiltMaxAngleX={"1"} tiltMaxAngleY={"1"}>
 
+
+        <div className="upcoming_event d-flex justify-content-center " >
+          <div class="card mb-3 h-auto" style={{ width: "80%", boxShadow: 'black 5px 5px 20px' }}>
+            <div class="row g-0 mb-0">
+              <div class="col-md-8 text-start">
+                <div class="card-body">
+                  <h5 class="card-title" style={{ fontSize: "2.35rem" }}>Dr. Sartaj Ul Hasan</h5>
+                  <p class="card-text" style={{ fontSize: "1.35rem" }}>Dear Students, Welcome to IIT Jammu, where opportunities abound for academic excellence, research innovation, and personal growth. Our vibrant campus offers a diverse range of extracurricular activities, comprehensive support services, and a strong sense of community. Embrace every opportunity, make lifelong connections, and thrive in this transformative environment. We're excited to see you flourish at IIT Jammu!</p>
+                  <p class="card-text text-primary" style={{ fontSize: "1.35rem" }}>Dean Student Affairs, IIT Jammu</p>
+                </div>
+              </div>
+              <div class="col-md-2" >
+                <img src='https://iitjammu.ac.in/faculty/documents/images/1641889795344.jpeg' class="img-fluid rounded-start" alt="..." />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </Tilt>
       {/* <div className="container">
         <div className="main">
           <div className="one">

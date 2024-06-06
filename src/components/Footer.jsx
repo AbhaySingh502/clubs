@@ -47,14 +47,14 @@ function Footer() {
                                     </a>
                                 </li>
                                 <li className="nav-item mb-2">
-                                    <a href="https://www.instagram.com/pratayksh_10/" className="nav-link p-0">
-                                        Pratayksh Mahajan
-                                    </a>
+
+                                    Pratayksh Mahajan
+
                                 </li>
                                 <li className="nav-item mb-2">
-                                    <a href="https://www.instagram.com/yash_bhajbhuje_/" className="nav-link p-0">
-                                        Yash Bhajbhuje
-                                    </a>
+
+                                    Yash Bhajbhuje
+
                                 </li>
                             </ul>
                         </div>

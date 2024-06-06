@@ -47,15 +47,7 @@ const imageData = [
   './Nasetes/Picture17.JPG',
   './Nasetes/Picture18.JPG',
   './Nasetes/Picture19.JPG',
-  './Nasetes/Picture20.JPG',
-  './Nasetes/Picture21.JPG',
-  './Nasetes/Picture22.JPG',
-  './Nasetes/Picture23.JPG',
-  './Nasetes/Picture24.JPG',
-  './Nasetes/Picture25.JPG',
-  './Nasetes/Picture26.JPG',
-
-  './Nasetes/Picture28.png',
+  './Nasetes/Picture20.JPG'
 
 
   // Add more image paths as needed
