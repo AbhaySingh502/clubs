@@ -1,3 +1,14 @@
+.contact_us {
+    color: brown;
+    cursor: pointer;
+}
+
+.contact_us:hover {
+    font-weight: 600;
+    color: blueviolet;
+}
+
+
 @media (max-width: 4000px) {
 
 

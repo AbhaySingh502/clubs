@@ -15,7 +15,7 @@ function Club() {
                         <div className="col-md-9">
 
                             <div className="bs-docs-section">
-                                <h2 style={{ borderBottom: '0.4rem solid green', borderRadius: '5px' }}>Socail Clubs</h2>
+                                <h2 style={{ borderBottom: '0.4rem solid green', borderRadius: '5px' }}>Social Clubs</h2>
                                 <p className='fs-5 fw-lighter lh-base'>The social activities at IIT Jammu are coordinated by the social clubs and play a crucial role in fostering creativity and confidence among students. These events are directed towards developing balanced and well-rounded individuals. Over the years, the student body has come up with a plethora of events and competitions covering a vast spectrum of activities including  blood donation, yoga session, aksharshala and much more.</p>
 
 
@@ -72,7 +72,7 @@ function Club() {
                                                 Remember, we're here to support you every step of the way. Get ready to make memories that'll last a lifetime!
                                                 Pratayksh Mahajan
                                             </p>
-                                            <p class="card-text text-primary" style={{ fontSize: "1.35rem" }}>Student General Secretary, IIT </p>
+                                            <p class="card-text text-primary" style={{ fontSize: "1.35rem" }}>Student General Secretary at IIT Jammu, 2023-2024 </p>
                                         </div>
                                     </div>
                                 </div>

@@ -20,6 +20,7 @@
     "react-parallax-tilt": "^1.7.177",
     "react-router-dom": "^6.21.0",
     "react-scripts": "^5.0.1",
+    "react-tooltip-lite": "^1.12.0",
     "styled-components": "^6.1.3",
     "web-vitals": "^2.1.4"
   },

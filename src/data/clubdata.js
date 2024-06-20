@@ -10,7 +10,9 @@ const clubdata = [
         linkedin: " https://www.linkedin.com/company/kritash/mycompany/",
         image: "/assetes/kri.png",
         club_link: '/Kritash',
-        high: "19rem"
+        high: "19rem",
+        FIC: 'Dr. Ravikant Saini',
+        FICEmail: 'ravikant.saini@iitjammu.ac.in'
 
     },
     {
@@ -23,8 +25,9 @@ const clubdata = [
         linkedin: "#",
         image: "/assetes/nac.png",
         club_link: "/NAC",
-        high: "19.4rem"
-
+        high: "19.4rem",
+        FIC: 'Dr. Yogesh Madhukarrao Nimdeo',
+        FICEmail: 'yogesh.nimdeo@iitjammu.ac.in'
     },
     {
         // done
@@ -37,7 +40,9 @@ const clubdata = [
         linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
         image: "/assetes/wellbeing.png",
         club_link: "/Wellbeing",
-        high: "17.4rem"
+        high: "17.4rem",
+        FIC: 'Dr. Pragati Shrivastava',
+        FICEmail: 'pragati.shrivastava@iitjammu.ac.in'
 
     },
     {
@@ -50,7 +55,9 @@ const clubdata = [
         linkedin: "https://www.linkedin.com/company/astria-za/",
         image: "/assetes/astronomy.png",
         club_link: "/Astronomy",
-        high: "24.5rem"
+        high: "24.5rem",
+        FIC: 'Dr. S.R.K. Chaitanya Indukuri',
+        FICEmail: 'chaitanya.indukuri@iitjammu.ac.in'
     },
     {
         key: 5,
@@ -61,7 +68,9 @@ const clubdata = [
         linkedin: "#",
         image: "/assetes/abhivyakt.png",
         club_link: "/Abhivayakt",
-        high: "21rem"
+        high: "21rem",
+        FIC: 'Dr. Shrishilan C',
+        FICEmail: 'srishilan.c@iitjammu.ac.in'
 
     },
     {
@@ -74,7 +83,9 @@ const clubdata = [
         linkedin: "https://www.instagram.com/the_dramatizers?igsh=MTg4Yjhkbm4xaHppbg==",
         image: "/assetes/drama.png",
         club_link: "/Drama",
-        high: "19rem"
+        high: "19rem",
+        FIC: 'Dr. Gaurav A Bhaduri',
+        FICEmail: 'gaurav.bhaduri@iitjammu.ac.in'
     },
     {
         // done
@@ -86,7 +97,9 @@ const clubdata = [
         linkedin: "#",
         image: "/assetes/malang.png",
         club_link: "/Malang",
-        high: "17.1rem"
+        high: "17.1rem",
+        FIC: 'Dr. Gaurav A Bhaduri',
+        FICEmail: 'gaurav.bhaduri@iitjammu.ac.in'
     },
     {
         // &
@@ -98,7 +111,9 @@ const clubdata = [
         linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
         image: "/assetes/dance.png",
         club_link: "/Dance",
-        high: "16.3rem"
+        high: "16.3rem",
+        FIC: 'Dr. Gaurav A Bhaduri',
+        FICEmail: 'gaurav.bhaduri@iitjammu.ac.in'
     },
     {
         // 
@@ -110,7 +125,9 @@ const clubdata = [
         linkedin: "#",
         image: "/assetes/artihtic.png",
         club_link: "/Arthitics",
-        high: "18.9rem"
+        high: "18.9rem",
+        FIC: 'Dr. Gaurav A Bhaduri',
+        FICEmail: 'gaurav.bhaduri@iitjammu.ac.in'
     },
     {
         key: 10,
@@ -121,7 +138,9 @@ const clubdata = [
         linkedin: "#",
         image: "/assetes/Chitraka.png",
         club_link: "/Chitraka",
-        high: "17.4rem"
+        high: "17.4rem",
+        FIC: 'Dr. Parveen Kumar',
+        FICEmail: 'parveen.kumar@iitjammu.ac.in'
     },
     // technical clubs
     {
@@ -133,7 +152,9 @@ const clubdata = [
         linkedin: "#",
         image: "/assetes/robotic.jpg",
         club_link: "/Robotics",
-        high: "23.1rem"
+        high: "23.1rem",
+        FIC: 'Dr. Nalin Kumar Sharma',
+        FICEmail: 'nalin.sharma@iitjammu.ac.in'
     },
     {
         // done
@@ -145,7 +166,9 @@ const clubdata = [
         linkedin: "https://www.linkedin.com/company/fintech-iitjammu/",
         image: "/assetes/fintech.PNG",
         club_link: "/Fintech",
-        high: "15.4rem"
+        high: "15.4rem",
+        FIC: 'Dr. Ravi Kr. Arun',
+        FICEmail: 'ravi.arun@iitjammu.ac.in'
     },
     {
         // done
@@ -157,7 +180,9 @@ const clubdata = [
         linkedin: "#",
         image: "/assetes/sae.png",
         club_link: "/Sae",
-        high: "20.8rem"
+        high: "20.8rem",
+        FIC: 'Dr. Rajkumar V',
+        FICEmail: 'rajkumar.v@iitjammu.ac.in'
     },
     {
         // done
@@ -169,7 +194,37 @@ const clubdata = [
         linkedin: "#",
         image: "/assetes/coding.png",
         club_link: "/Coding",
-        high: "18.2rem"
+        high: "18.2rem",
+        FIC: 'Dr. Sumit Kumar Pandey',
+        FICEmail: 'sumit.pandey@iitjammu.ac.in'
+    },
+    {
+        // done
+        key: 15,
+        name: "MESH",
+        para: "Interdisciplinary Thinking is an attempt to re-think the boundaries between engineering, medicine, basic sciences, humanities and in general all aspects of human knowledge.While pioneers in any field usually have a broad understanding of many things, people who follow become “experts” by narrow training in specific skills and techniques. In the last hundred years we have seen a growing separation of specialists into knowledge silos – engineers, doctors, chemists, bankers, etc.Started as an informal group for integrating or meshing the disciplines to meet weekly on campus. The group was then tentatively called “MESH of Engineering, Science and the Humanities” (MESH for short).",
+        insta_id: "#",
+        youtube: "#",
+        linkedin: "#",
+        image: "/assetes/MESH.png",
+        club_link: "/Mesh",
+        high: "18.2rem",
+        FIC: 'Dr. Ashutosh Yadav',
+        FICEmail: 'ashutosh.yadav@iitjammu.ac.in'
+    },
+    {
+        // done
+        key: 14,
+        name: "Re4M",
+        para: "Research for Minds (Re4M) at IIT Jammu is more than a club; it’s a vibrant tapestry of interdisciplinary dialogue and innovation. Re4M (pronounced 'Reform') stands as a beacon for research enthusiasts within and beyond our institute, bridging gaps and building networks across diverse fields. From BTech undergraduates to seasoned PhD scholars and faculty members, Re4M nurtures a thriving community of inquisitive minds.Our journey began on October 4, 2021, with our inaugural research talk—a humble start that ignited an unstoppable wave of intellectual exploration. Conceived by the visionary minds of Prof. Uma Shankar and Dr. Rajkumar, Re4M was born from a collective passion for critical scholarship and innovative thinking. Supported by like-minded scholars such as Prof. Suresh Devasahayam, Dr. Sayantan Mandal, Inayat Irshad, Khogesh Rathore, Amina Girdher, and Sheriya Sareen, Re4M took root as a part of the Interdisciplinary Center for Deployable Solutions (IDeS), headed by Prof. Uma Shankar.",
+        insta_id: "#",
+        youtube: "#",
+        linkedin: "#",
+        image: "https://lh4.googleusercontent.com/d5efD4gJVoWrMSlYboG1_5wUhZiM_ch33L030cPyVBUP2vgjAXaVCQ8PJUylrZZm57DSMt2HykWEV0m7kX33HkQ=w16383",
+        club_link: "/Rem",
+        high: "18.2rem",
+        FIC: 'Dr. Mithu Baidya',
+        FICEmail: 'mithu.baidya@iitjammu.ac.in'
     },
 
 

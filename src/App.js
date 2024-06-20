@@ -19,6 +19,8 @@ import NAC from './clubspages/NAC';
 import Gallery from './components/Gallery'
 import Fintech from './clubspages/Fintech'
 import Chitraka from './clubspages/Chitraka'
+import Mesh from './clubspages/Mesh';
+import Rem from './clubspages/Rem';
 function App() {
   return (
     <div className="App">
@@ -44,6 +46,8 @@ function App() {
           <Route path="/Malang" element={<Malang />} />
           <Route path="/Robotics" element={<Robotics />} />
           <Route path="/Sae" element={<Sae />} />
+          <Route path="/Mesh" element={<Mesh />} />
+          <Route path="/Rem" element={<Rem />} />
           <Route path="/Wellbeing" element={<Wellbeing />} />
         </Routes>
       </BrowserRouter>
